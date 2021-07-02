@@ -1,9 +1,17 @@
 <template>
-    <div class="py-6" :class="additionalClass">
+    <div class="py-6 px-8" :class="additionalClass">
         <nav class="mx-auto max-w-7xl">
-            <div class="grid grid-cols-2 gap-4 items-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
                 <div>
-                    <g-link to="/" class="flex items-center">
+                    <g-link
+                        to="/"
+                        class="
+                            flex
+                            items-center
+                            sm:place-content-start
+                            place-content-center
+                        "
+                    >
                         <g-image
                             src="~/assets/images/logo.svg"
                             class="h-8 w-auto sm:h-10"
@@ -12,8 +20,8 @@
                         <span class="pl-2 font-bold"> laracube </span>
                     </g-link>
                 </div>
-                <div class="text-right">
-                    <div class="hidden md:block">
+                <div class="text-right hidden md:block">
+                    <div class="">
                         <div class="space-x-10">
                             <g-link
                                 class="

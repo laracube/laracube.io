@@ -5,9 +5,7 @@
                 max-w-7xl
                 mx-auto
                 py-16
-                px-4
-                sm:px-6
-                lg:py-12 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8
+                lg:py-12 lg:grid lg:grid-cols-3 lg:gap-x-8
             "
         >
             <div>

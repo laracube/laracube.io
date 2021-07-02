@@ -1,7 +1,7 @@
 <template>
     <div class="relative bg-gray-100 bg-opacity-50 overflow-hidden relative">
         <navigation></navigation>
-        <main class="mt-16 px-4 sm:mt-24">
+        <main class="mt-16 px-8 sm:mt-24">
             <slot />
             <footer-comp></footer-comp>
         </main>
