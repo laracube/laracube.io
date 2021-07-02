@@ -1,14 +1,18 @@
-# Default starter for Gridsome
+# laracube.io
 
-This is the project you get when you run `gridsome create new-project`.
+Laracube website building using gridsome.
 
-### 1. Install Gridsome CLI tool if you don't have
+### Build using
 
-`npm install --global @gridsome/cli`
+- [Gridsome](https://gridsome.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Tailwind UI](https://tailwindui.com/)
 
-### 2. Create a Gridsome project
+## Installation
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+1. Install Gridsome CLI tool if you don't have `yarn global add @gridsome/cli`
+2. Clone the repo: `git clone https://github.com/laracube/laracube.io.git`
+3. `cd laracube.io`
+4. `yarn install`
+5. `gridsome develop` to start a local dev server at `http://localhost:8080`
+6. Happy coding 🎉🙌

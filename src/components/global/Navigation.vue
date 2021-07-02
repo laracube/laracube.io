@@ -1,22 +1,30 @@
 <template>
     <div class="py-6" :class="additionalClass">
-        <nav class="mx-auto px-4 sm:px-6 max-w-7xl">
+        <nav class="mx-auto max-w-7xl">
             <div class="grid grid-cols-2 gap-4 items-center">
                 <div>
-                  <g-link to="/" class="flex items-center">
-                     <g-image
-                        src="~/assets/images/logo.svg"
-                        class="h-8 w-auto sm:h-10">
-                     </g-image>
+                    <g-link to="/" class="flex items-center">
+                        <g-image
+                            src="~/assets/images/logo.svg"
+                            class="h-8 w-auto sm:h-10"
+                        >
+                        </g-image>
                         <span class="pl-2 font-bold"> laracube </span>
-                  </g-link>
+                    </g-link>
                 </div>
                 <div class="text-right">
                     <div class="hidden md:block">
                         <div class="space-x-10">
-                          <g-link class="font-medium text-gray-500 hover:text-gray-900" to="/docs">
-                            Documentation
-                          </g-link>
+                            <g-link
+                                class="
+                                    font-medium
+                                    text-gray-500
+                                    hover:text-gray-900
+                                "
+                                to="/docs"
+                            >
+                                Documentation
+                            </g-link>
                             <a
                                 href="https://github.com/laracube"
                                 target="_blank"

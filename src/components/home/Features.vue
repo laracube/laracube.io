@@ -11,18 +11,7 @@
             "
         >
             <div>
-                <h2
-                    class="
-                        text-base
-                        font-semibold
-                        text-indigo-600
-                        uppercase
-                        tracking-wide
-                    "
-                >
-                    Everything you need
-                </h2>
-                <p class="mt-2 text-3xl font-extrabold text-gray-900">
+                <p class="text-3xl font-extrabold text-gray-900">
                     All-in-one platform
                 </p>
                 <p class="mt-4 text-lg text-gray-500">
