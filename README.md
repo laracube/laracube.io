@@ -1,6 +1,6 @@
 # laracube.io
 
-Laracube website building using gridsome.
+Laracube website built using gridsome.
 
 ### Build using
 
