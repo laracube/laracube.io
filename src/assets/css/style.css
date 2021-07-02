@@ -1,0 +1,23 @@
+@import url('https://use.fontawesome.com/releases/v5.15.3/css/all.css');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.scrollbar-w-2::-webkit-scrollbar {
+    @apply w-2 h-2 !important;
+}
+
+.scrollbar-track-gray-lighter::-webkit-scrollbar-track {
+    @apply bg-gray-200 !important;
+}
+
+.scrollbar-thumb-gray::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 !important;
+}
+
+.scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+    @apply rounded !important;
+}
