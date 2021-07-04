@@ -18,7 +18,8 @@ query {
 
 <script>
 import Navigation from '~/components/global/Navigation';
-import FooterComp from '../components/global/Footer';
+import FooterComp from '~/components/global/Footer';
+
 export default {
     components: {
         FooterComp,

@@ -58,7 +58,7 @@
                             text-base
                             font-medium
                             rounded-md
-                            text-indigo-600
+                            text-primary-600
                             bg-white
                             hover:bg-indigo-50
                         "

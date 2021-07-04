@@ -9,7 +9,7 @@
             "
         >
             <div>
-                <p class="text-3xl font-extrabold text-gray-900">
+                <p class="text-3xl font-normal text-gray-900">
                     Simple Yet Powerful
                 </p>
                 <p class="mt-4 text-lg text-gray-500">
@@ -37,7 +37,7 @@
                     >
                         <dt>
                             <svg
-                                class="absolute h-6 w-6 text-green-500"
+                                class="absolute h-6 w-6 text-primary-600"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
                                 viewBox="0 0 24 24"

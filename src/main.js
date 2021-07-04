@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 require('~/assets/css/style.css');
+require('~/assets/css/github-markdown.css');
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 require('fontsource-poppins');

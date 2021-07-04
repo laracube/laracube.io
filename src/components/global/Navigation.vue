@@ -1,15 +1,22 @@
 <template>
-    <div class="py-6 px-8" :class="additionalClass">
-        <nav class="mx-auto max-w-7xl">
+    <div class="py-4 px-8" :class="additionalClass">
+        <nav class="mx-auto" :class="navClass">
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-                <div>
+                <div
+                    class="
+                        flex
+                        items-center
+                        sm:place-content-start
+                        place-content-center
+                    "
+                >
                     <g-link
                         to="/"
                         class="
-                            flex
-                            items-center
                             sm:place-content-start
                             place-content-center
+                            flex
+                            items-center
                         "
                     >
                         <g-image

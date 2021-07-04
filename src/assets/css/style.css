@@ -21,3 +21,34 @@
 .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
     @apply rounded !important;
 }
+
+.remark-post h1 a,
+.remark-post h2 a,
+.remark-post h3 a,
+.remark-post h4 a {
+    @apply float-left top-0 -ml-5 text-center w-3 opacity-0;
+}
+
+.remark-post h1:hover a,
+.remark-post h2:hover a,
+.remark-post h3:hover a,
+.remark-post h4:hover a {
+    @apply opacity-100;
+}
+
+.remark-post h2,
+.remark-post h3 {
+    @apply pt-12 -mt-4 !important;
+}
+
+.remark-post h2:before {
+    content: " ";
+}
+
+.remark-post h2:before {
+    @apply block mb-6 border-t border-solid border-gray-200;
+}
+
+.active--exact.active {
+    @apply text-primary-700 !important;
+}
