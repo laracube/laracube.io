@@ -520,7 +520,7 @@
 }
 
 .markdown-body blockquote {
-  border-left: 0.25em solid #2a4365;
+  border-left: 0.25em solid #9B0000;
   color: #6a737d;
   padding: 0 1em;
 }
@@ -602,7 +602,8 @@
 }
 
 .markdown-body ul li {
-  /*list-style-type: disc;*/
+  list-style-type: disc;
+  margin-bottom: 1rem;
 }
 
 .markdown-body ol li {
