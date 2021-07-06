@@ -2,6 +2,10 @@
 
 /* purgecss start ignore */
 
+.markdown-body {
+  line-height: 2;
+}
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;

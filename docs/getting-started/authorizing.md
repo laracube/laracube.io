@@ -24,5 +24,12 @@ This authorization gate controls access to Laracube.
     }
 ```
 
-## Default Page
+## Accessing Laracube
 
+Once the authorization is set, and the user is logged in, you can visit Laracube at `/laracube`. 
+It should load the starter User report.
+
+The path can be updated from `\laracube` to a different path by adding a new env variable `LARACUBE_PATH`. 
+
+You can also run Laracube on a sub-domain by setting the env variable `LARACUBE_DOMAIN_NAME`. 
+If you are using Laracube on a sub-domain make sure that the auth session is setup correctly. 

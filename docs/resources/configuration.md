@@ -1,1 +1,3 @@
-# Coming Soon
+# Resources Configuration
+
+Coming Soon
