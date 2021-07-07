@@ -25,15 +25,9 @@
       link: /docs/resources
     - title: Configuration
       link: /docs/resources/configuration
+    - title: Table Resource
+      link: /docs/resources/table
     - title: Big Number
       link: /docs/resources/big-number
-    - title: Table
-      link: /docs/resources/table
     - title: Custom HTML
       link: /docs/resources/custom-html
-    - title: Number with Trend
-      link: /docs/resources/number-trend
-    - title: Number with Sparklines
-      link: /docs/resources/number-sparklines
-    - title: Number with Trend & Sparklines
-      link: /docs/resources/number-trend-sparklines

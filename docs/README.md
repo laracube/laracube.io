@@ -2,11 +2,11 @@
 
 # Laracube Docs 
 
-> **Laracube is in the Alpha phase. Expect things to change.**
+> Laracube is in the Alpha phase. Expect things to change.
 
 ## Introduction
 
-> **Laracube is an open-source analytical platform.** It is great for building internal reports, dashboards or adding customer‑facing analytics to existing laravel applications.
+**Laracube is an open-source analytical platform.** It is great for building internal reports, dashboards or adding customer‑facing analytics to existing laravel applications.
 
 ## Why Laracube?
 
