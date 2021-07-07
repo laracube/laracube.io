@@ -3,7 +3,7 @@
 /* purgecss start ignore */
 
 .markdown-body {
-  line-height: 2;
+  line-height: 1.75;
 }
 
 .markdown-body .octicon {
@@ -607,7 +607,7 @@
 
 .markdown-body ul li {
   list-style-type: disc;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .markdown-body ol li {

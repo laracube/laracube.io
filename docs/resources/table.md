@@ -1,10 +1,14 @@
 # Table Resource
 
-Table resource displays the result in a tabular format. Table resources supports two different types of tables
+Table resource displays the result in a tabular format. It supports the following different types
 - Paginated Table
 - Simple Table
 
 ## Defining Resource
+
+All new resource should extend the 
+[`Laracube\Laracube\Base\ResourceTable`](https://github.com/laracube/laracube/blob/master/src/Base/ResourceTable.php) 
+abstract class.
 
 Every Table resource needs to have the `query` method that return an Eloquent/DB Builder instance. 
 It also needs a collection property `collection` that will transform the result between the builder and JSON response.
