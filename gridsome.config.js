@@ -33,6 +33,14 @@ module.exports = {
                 },
             },
         },
+        {
+            use: 'gridsome-plugin-gtag',
+            options: {
+                config: {
+                    id: 'GTM-M8Z9FSB',
+                },
+            },
+        },
     ],
     css: {
         loaderOptions: {

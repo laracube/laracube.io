@@ -4527,6 +4527,13 @@ gray-matter@^4.0.2:
     section-matter "^1.0.0"
     strip-bom-string "^1.0.0"
 
+gridsome-plugin-gtag@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-gtag/-/gridsome-plugin-gtag-0.1.10.tgz#99ab1b494a874a996b08ee7073766c8132614d59"
+  integrity sha512-/T1snhRRO4akDx6Hi4rYpMtXo8jo8uEf0brHbOI6bbb+vg7XTFucEAOKklUdKFTLKFAwH1VIQ+AZajU88U6iHg==
+  dependencies:
+    vue-gtag "^1.10.0"
+
 gridsome-plugin-remark-shiki@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-remark-shiki/-/gridsome-plugin-remark-shiki-0.6.0.tgz#88110d129e4fe56317b4be82792e910490f722fb"
@@ -9825,6 +9832,11 @@ vscode-textmate@^5.2.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/vscode-textmate/-/vscode-textmate-5.4.0.tgz#4b25ffc1f14ac3a90faf9a388c67a01d24257cd7"
   integrity sha512-c0Q4zYZkcLizeYJ3hNyaVUM2AA8KDhNCA3JvXY8CeZSJuBdAy3bAvSbv46RClC4P3dSO9BdwhnKEx2zOo6vP/w==
+
+vue-gtag@^1.10.0:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/vue-gtag/-/vue-gtag-1.16.1.tgz#edb2f20ab4f6c4d4d372dfecf8c1fcc8ab890181"
+  integrity sha512-5vs0pSGxdqrfXqN1Qwt0ZFXG0iTYjRMu/saddc7QIC5yp+DKgjWQRpGYVa7Pq+KbThxwzzMfo0sGi7ISa6NowA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

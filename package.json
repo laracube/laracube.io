@@ -11,6 +11,7 @@
     "autoprefixer": "9",
     "fontsource-poppins": "^4.0.0",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-gtag": "^0.1.10",
     "gridsome-plugin-remark-shiki": "^0.6.0",
     "nprogress": "^0.2.0",
     "postcss": "7",
