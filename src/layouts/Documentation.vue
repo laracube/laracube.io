@@ -64,7 +64,7 @@
                                     <li
                                         v-if="links"
                                         v-for="(group, i1) in links"
-                                        class="mt-8"
+                                        class="mt-6"
                                         :key="`title-${i1}`"
                                     >
                                         <h5
@@ -93,7 +93,7 @@
                                                     :to="item.link"
                                                     class="
                                                         px-3
-                                                        py-2
+                                                        py-1.5
                                                         transition-colors
                                                         duration-200
                                                         relative
@@ -134,6 +134,23 @@
                             <div class="min-w-0 flex-auto px-4 sm:px-6 xl:px-8">
                                 <div class="">
                                     <slot />
+                                    <p class="mt-8 pl-4">
+                                        <a
+                                            :href="editLink"
+                                            target="_blank"
+                                            class="
+                                                github-edit-link
+                                                text-primary-700
+                                                text-bold
+                                                text-sm
+                                            "
+                                        >
+                                            <i class="fab fa-github pr-1"></i>
+                                            <span class="">
+                                                Edit this page on GitHub
+                                            </span>
+                                        </a>
+                                    </p>
                                 </div>
                                 <hr class="border-gray-200 mt-10 mb-4" />
                                 <div
@@ -250,7 +267,10 @@ export default {
             return this.$route.matched[0].path;
         },
         editLink() {
-            return null;
+            let path = this.currentPath;
+            if ((path.match(new RegExp('/', 'g')) || []).length == 1)
+                path = path + '/README';
+            return `https://github.com/laracube/laracube.io/blob/master${path}.md`;
         },
         items() {
             return this.links.reduce(
