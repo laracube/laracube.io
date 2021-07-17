@@ -69,29 +69,35 @@ To add a resource to a report, we can simply create a new instance of the resour
 and return them as an array. 
 
 ```php
-    use App\Laracube\Resources\Customer\CustomerAverageNetRevenue;
-    use App\Laracube\Resources\Customer\CustomerHighestSpender;
-    use App\Laracube\Resources\Customer\CustomerPaying;
-    use App\Laracube\Resources\Customer\CustomerPurchaseAndRefunds;
-    use App\Laracube\Resources\Order\OrderNet;
+    use App\Laracube\Resources\Revenue\NetAverageRevenueByCustomer;
+    use App\Laracube\Resources\Revenue\NetAverageRevenueByOrder;
+    use App\Laracube\Resources\Revenue\NetAverageRevenueByProduct;
+    use App\Laracube\Resources\Revenue\NetOrder;
     use App\Laracube\Resources\Revenue\NetRevenue;
+    use App\Laracube\Resources\Revenue\NetRevenueBellerSellerProduct;
+    use App\Laracube\Resources\Revenue\NetRevenueByCustomer;
+    use App\Laracube\Resources\Revenue\NetRevenueByProduct;
+    use App\Laracube\Resources\Revenue\NetRevenueHighestSpender;
 
     /**
      * Get the resources for the report.
      *
      * @return array
      */
-     public function resources()
-     {
+    public function resources()
+    {
         return [
-            (new CustomerPaying()),
             (new NetRevenue()),
-            (new OrderNet()),
-            (new CustomerAverageNetRevenue()),
-            (new CustomerHighestSpender()),
-            (new CustomerPurchaseAndRefunds()),
+            (new NetOrder()),
+            (new NetAverageRevenueByOrder()),
+            (new NetAverageRevenueByCustomer()),
+            (new NetAverageRevenueByProduct()),
+            (new NetRevenueHighestSpender()),
+            (new NetRevenueByCustomer()),
+            (new NetRevenueBellerSellerProduct()),
+            (new NetRevenueByProduct()),
         ];
-     }
+    }
 ```
 
 ## Preventing Conflicts

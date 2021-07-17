@@ -8,7 +8,7 @@ By default, Laracube resources are stored in the `app/Laracube/Resources` direct
 
 All new resources should extend one of the base resource.
 
-For example, If you create a new big number resource called `NetSales`, it will look something like this
+For example, If you create a new big number resource called `NetRevenue`, it will look something like this
 
 ```php
 <?php
@@ -17,7 +17,7 @@ namespace App\Laracube\Resources;
 
 use Laracube\Laracube\Base\ResourceBigNumber;
 
-class NetSales extends ResourceBigNumber
+class NetRevenue extends ResourceBigNumber
 {
     // ...
 }
@@ -26,4 +26,4 @@ class NetSales extends ResourceBigNumber
 ## Registering Resources
 
 Once you have defined a resource, you can then add them to the 
-[`resources` method](/docs/reports/configuration#report-resources)
+[`resources`](/docs/reports-configuration#report-resources) method of a report.

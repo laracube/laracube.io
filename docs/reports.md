@@ -9,7 +9,7 @@ By default, Laracube reports are stored in the `app/Laracube/Reports` directory 
 
 All new reports should extend the [`Laracube\Laracube\Base\Report`](https://github.com/laracube/laracube/blob/master/src/Base/Report.php) abstract class.
 
-For example, If you create a new report called CustomerReport, it will look something like this
+For example, If you create a new report called NetRevenueReport, it will look something like this
 
 ```php
 <?php
@@ -18,7 +18,7 @@ namespace App\Laracube\Reports;
 
 use Laracube\Laracube\Base\Report;
 
-class CustomerReport extends Report
+class NetRevenueReport extends Report
 {
     // ...
 }

@@ -134,23 +134,23 @@
                             <div class="min-w-0 flex-auto px-4 sm:px-6 xl:px-8">
                                 <div class="">
                                     <slot />
-                                    <!--                                    <p class="mt-8 pl-4">-->
-                                    <!--                                        <a-->
-                                    <!--                                            :href="editLink"-->
-                                    <!--                                            target="_blank"-->
-                                    <!--                                            class="-->
-                                    <!--                                                github-edit-link-->
-                                    <!--                                                text-primary-700-->
-                                    <!--                                                text-bold-->
-                                    <!--                                                text-sm-->
-                                    <!--                                            "-->
-                                    <!--                                        >-->
-                                    <!--                                            <i class="fab fa-github pr-1"></i>-->
-                                    <!--                                            <span class="">-->
-                                    <!--                                                Edit this page on GitHub-->
-                                    <!--                                            </span>-->
-                                    <!--                                        </a>-->
-                                    <!--                                    </p>-->
+                                    <p class="mt-8 pl-4">
+                                        <a
+                                            :href="editLink"
+                                            target="_blank"
+                                            class="
+                                                github-edit-link
+                                                text-primary-700
+                                                text-bold
+                                                text-sm
+                                            "
+                                        >
+                                            <i class="fab fa-github pr-1"></i>
+                                            <span class="">
+                                                Edit this page on GitHub
+                                            </span>
+                                        </a>
+                                    </p>
                                 </div>
                                 <hr class="border-gray-200 mt-10 mb-4" />
                                 <div

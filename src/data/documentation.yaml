@@ -6,28 +6,28 @@
 - title: GETTING STARTED
   items:
     - title: Installation
-      link: /docs/getting-started/installation
+      link: /docs/getting-started-installation
     - title: Authorizing Laracube
-      link: /docs/getting-started/authorizing
+      link: /docs/getting-started-authorizing
     - title: Updating Laracube
-      link: /docs/getting-started/updating
+      link: /docs/getting-started-updating
 
 - title : REPORTS
   items:
     - title: Overview
       link: /docs/reports
     - title: Configuration
-      link: /docs/reports/configuration
+      link: /docs/reports-configuration
 
 - title : RESOURCES
   items:
     - title: Overview
       link: /docs/resources
     - title: Configuration
-      link: /docs/resources/configuration
+      link: /docs/resources-configuration
     - title: Table Resource
-      link: /docs/resources/table
+      link: /docs/resources-table
     - title: Big Number
-      link: /docs/resources/big-number
+      link: /docs/resources-big-number
     - title: Custom HTML
-      link: /docs/resources/custom-html
+      link: /docs/resources-custom-html

@@ -8,7 +8,7 @@ Individual resource can have additional configuration to enhance their behavior.
 Laracube uses the 12 grid vuetify system to display resource. 
 By default, resources are set to use 3 columns.
 
-![12 Grid System](./../assets/12-grid.png)
+![12 Grid System](./assets/12-grid.png)
 
 
 To customize the numbers of columns that a resource should you maybe define the `columns` property on the resource class
@@ -25,7 +25,7 @@ To customize the numbers of columns that a resource should you maybe define the 
 To customize the number of columns at the time of registering a resource to a report, you can chain the `setColumns` method.
 
 ```php
-    use App\Laracube\Resources\Customer\CustomerAverageNetRevenue;
+    use App\Laracube\Resources\Revenue\NetRevenue;
    
     /**
      * Get the resources for the report.
@@ -35,7 +35,7 @@ To customize the number of columns at the time of registering a resource to a re
      public function resources()
      {
         return [
-            (new CustomerAverageNetRevenue())->setColumns(6),
+            (new NetRevenue())->setColumns(6),
         ];
      }
 ```
