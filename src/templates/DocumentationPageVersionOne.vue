@@ -1,12 +1,12 @@
 <template>
-  <Documentation :subtitles="subtitles" :links="links" :showOnThisPage="true">
+  <Documentation :subtitles="subtitles" :links="links" :showOnThisPage="true" version="1.x">
     <VueRemarkContent class="markdown-body remark-post pl-4"></VueRemarkContent>
   </Documentation>
 </template>
 
 <page-query>
 query ($id: ID!) {
-  post: documentation (id: $id) {
+  post: documentationVersionOne (id: $id) {
     title
     content
     headings (depth: h1) {
@@ -22,7 +22,7 @@ query ($id: ID!) {
 </page-query>
 
 <script>
-import links from "~/data/documentation.yaml";
+import links from "~/data/documentationVersionOne.yaml";
 import Documentation from "~/layouts/Documentation";
 
 export default {

@@ -35,10 +35,12 @@ class UserTable extends ResourceTable
     /**
      * Get the query for the resource.
      *
+     * @param \Illuminate\Http\Request $request
+     *
      * @return mixed
      * @throws \Throwable
      */
-    public function query()
+    public function query(Request $request)
     {
         return Users::orderBy('created_at');
     }

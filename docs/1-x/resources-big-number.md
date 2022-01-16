@@ -1,6 +1,6 @@
 # Big Number Resource
 
-![Big Number Sections](./assets/big-number.png)
+![Big Number Sections](../assets/big-number.png)
 
 The Big Numbers Resource is for displaying a number, nice and big. It supports the following options
 

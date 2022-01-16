@@ -43,4 +43,4 @@ Once you have installed the package, you would see the package be structured lik
 ```
 
 🙌 Wohoo! Basic installation of Laracube is now complete,
-head over to the [Authorizing Laracube](/docs/getting-started-authorizing) to set the authorization and see how to access the platform.
+head over to the [Authorizing Laracube](/docs/1-x/getting-started-authorizing) to set the authorization and see how to access the platform.

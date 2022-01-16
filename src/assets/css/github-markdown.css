@@ -191,7 +191,7 @@
 }
 
 .markdown-body a {
-  color: #9b0000;
+  color: rgba(22, 58, 252);
   background-color: transparent;
 }
 
@@ -523,7 +523,7 @@
 }
 
 .markdown-body blockquote {
-  border-left: 0.25em solid #9b0000;
+  border-left: 0.25em solid rgba(22, 58, 252);
   color: #6a737d;
   padding: 0 1em;
 }

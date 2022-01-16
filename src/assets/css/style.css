@@ -49,6 +49,6 @@
   @apply block mb-6 border-t border-solid border-gray-200;
 }
 
-.active--exact.active {
+.active--exact.active, a.active {
   @apply text-primary-700 !important;
 }

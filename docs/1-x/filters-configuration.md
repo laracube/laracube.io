@@ -62,13 +62,14 @@ You can also set the sub-heading to `null` if you don't want to show any sub-hea
 Each report contains a `resources` method.
 This method returns an array of resources, which generally extend the `Laracube\Laracube\Base\Resource` class.
 
-Laracube ships with a variety of resources out of the box. Check the [Resources](/docs/resources)
+Laracube ships with a variety of resources out of the box. Check the [Resources](/docs/1-x/resources)
 section for more information.
 
-To add a resource to a report, we can simply create a new instance of the resource class in the `resources` method
+To add a resource to a report, we can simply create a new instance of the `Resource` class in the `resources` method
 and return them as an array.
 
 ```php
+
     use App\Laracube\Resources\Revenue\NetAverageRevenueByCustomer;
     use App\Laracube\Resources\Revenue\NetAverageRevenueByOrder;
     use App\Laracube\Resources\Revenue\NetAverageRevenueByProduct;
@@ -96,6 +97,37 @@ and return them as an array.
             (new NetRevenueByCustomer()),
             (new NetRevenueBellerSellerProduct()),
             (new NetRevenueByProduct()),
+        ];
+    }
+```
+
+## Report Filters
+
+Each report contains a `filters` method.
+This method returns an array of filters, which generally extend the `Laracube\Laracube\Base\Filter` class.
+
+Laracube ships with a variety of filters out of the box. Check the [Filters](/docs/1-x/filters)
+section for more information.
+
+To add a filter to a report, we can simply create a new instance of the `Filter` class in the `filters` method
+and return them as an array.
+
+```php
+    use App\Laracube\Filters\CannotSeeCustomerFilter;
+    use App\Laracube\Filters\CustomerFilter;
+    use App\Laracube\Filters\ProductFilter;
+
+    /**
+     * Get all the filters of the report.
+     *
+     * @return array
+     */
+    public function filters()
+    {
+        return [
+            (new CustomerFilter()),
+            (new ProductFilter()),
+            (new CannotSeeCustomerFilter()),
         ];
     }
 ```

@@ -8,7 +8,7 @@ Individual resource can have additional configuration to enhance their behavior.
 Laracube uses the 12 grid vuetify system to display resource.
 By default, resources are set to use 3 columns.
 
-![12 Grid System](./assets/12-grid.png)
+![12 Grid System](../assets/12-grid.png)
 
 To customize the numbers of columns that a resource should you maybe define the `columns` property on the resource class
 

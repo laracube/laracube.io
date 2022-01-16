@@ -13,10 +13,10 @@ module.exports = {
       use: "@gridsome/vue-remark",
       options: {
         index: ["README"],
-        baseDir: "./docs",
-        pathPrefix: "/docs",
-        typeName: "Documentation",
-        template: "./src/templates/DocumentationPage.vue",
+        baseDir: "./docs/1-x",
+        pathPrefix: "/docs/1-x",
+        typeName: "DocumentationVersionOne",
+        template: "./src/templates/DocumentationPageVersionOne.vue",
         plugins: [["gridsome-plugin-remark-shiki", { theme: "material-theme-palenight", skipInline: true }]],
         remark: {
           autolinkHeadings: {

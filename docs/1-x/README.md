@@ -1,5 +1,3 @@
-[![Latest Version](https://img.shields.io/github/release/laracube/laracube.svg?style=flat-square)](https://github.com/laracube/laracube/releases)
-
 # Laracube Docs
 
 > Laracube is in the Beta phase. Expect things to change.
