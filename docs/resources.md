@@ -1,6 +1,6 @@
 # Resources Overview
 
-Resources are visualizations that can be attached to one or many report. 
+Resources are visualizations that can be attached to one or many report.
 
 ## Defining Resources
 
@@ -25,5 +25,5 @@ class NetRevenue extends ResourceBigNumber
 
 ## Registering Resources
 
-Once you have defined a resource, you can then add them to the 
+Once you have defined a resource, you can then add them to the
 [`resources`](/docs/reports-configuration#report-resources) method of a report.

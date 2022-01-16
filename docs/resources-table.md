@@ -1,16 +1,17 @@
 # Table Resource
 
 Table resource displays the result in a tabular format. It supports the following different types
+
 - Paginated Table
 - Simple Table
 
 ## Defining Resource
 
-All new resource should extend the 
-[`Laracube\Laracube\Base\ResourceTable`](https://github.com/laracube/laracube/blob/master/src/Base/ResourceTable.php) 
+All new resource should extend the
+[`Laracube\Laracube\Base\ResourceTable`](https://github.com/laracube/laracube/blob/master/src/Base/ResourceTable.php)
 abstract class.
 
-Every Table resource needs to have the `query` method that return an Eloquent/DB Builder instance. 
+Every Table resource needs to have the `query` method that return an Eloquent/DB Builder instance.
 It also needs a collection property `collection` that will transform the result between the builder and JSON response.
 
 ```php
@@ -77,14 +78,14 @@ To set the table as a simple table, that displays all records on one page, you m
 Table resource needs an accompanying resource collection, that allows you to transform the result between Eloquent model
 and JSON responses.
 
-### Defining Collection 
+### Defining Collection
 
-You can organize and create collection to your liking. In this example we are going to be storing them in 
+You can organize and create collection to your liking. In this example we are going to be storing them in
 `app/Laracube/Collections` directory of the application.
 
 All new collections should extend the [`Laracube\Laracube\Base\ResourceTableCollection`](https://github.com/laracube/laracube/blob/master/src/Base/ResourceTableCollection.php) abstract class.
 
-You will need to defined `toArray` and `columns` methods in your collection. 
+You will need to defined `toArray` and `columns` methods in your collection.
 
 For example, If you create a new collection called `UserCollection`, it will look something like this
 

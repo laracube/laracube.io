@@ -1,4 +1,4 @@
-- title: ''
+- title: ""
   items:
     - title: Home
       link: /docs
@@ -7,19 +7,19 @@
   items:
     - title: Installation
       link: /docs/getting-started-installation
-    - title: Authorizing Laracube
+    - title: Authorizing
       link: /docs/getting-started-authorizing
-    - title: Updating Laracube
+    - title: Updating
       link: /docs/getting-started-updating
 
-- title : REPORTS
+- title: REPORTS
   items:
     - title: Overview
       link: /docs/reports
     - title: Configuration
       link: /docs/reports-configuration
 
-- title : RESOURCES
+- title: RESOURCES
   items:
     - title: Overview
       link: /docs/resources
@@ -27,7 +27,14 @@
       link: /docs/resources-configuration
     - title: Table Resource
       link: /docs/resources-table
-    - title: Big Number
-      link: /docs/resources-big-number
-    - title: Custom HTML
-      link: /docs/resources-custom-html
+    - title: Card Resource
+      link: /docs/resources-card
+
+- title: Filters
+  items:
+    - title: Overview
+      link: /docs/filters
+    - title: Configuration
+      link: /docs/filters-configuration
+    - title: Select Filter
+      link: /docs/filters-select
