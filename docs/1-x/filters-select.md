@@ -1,8 +1,9 @@
 # Select Filter
 
-The most common type of filter is the "select" filter, which allows the user to select a filter option from a drop-down selection menu. 
+The most common type of filter is the "select" filter, which allows the user to select a filter option from a drop-down selection menu.
 
-Select filter can be 
+Select filter can be
+
 - Single Select
 - Multiple Select
 

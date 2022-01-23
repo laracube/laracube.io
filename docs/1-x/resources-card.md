@@ -12,7 +12,7 @@ All new resource should extend the
 [`Laracube\Laracube\Base\ResourceCard`](https://github.com/laracube/laracube/blob/master/src/Base/ResourceCard.php)
 abstract class.
 
-Every Card resource needs to have the `output` method that return a nested array. 
+Every Card resource needs to have the `output` method that return a nested array.
 You can return any number of array in any sequence.
 
 ```php
@@ -37,26 +37,26 @@ class UserCard extends ResourceCard
     public function output(Request $request)
     {
         return [
-            [ 
-                // big number 
+            [
+                // big number
             ],
-            [ 
-                // sparkline 
+            [
+                // sparkline
             ],
-            [ 
-                // custom html 
+            [
+                // custom html
             ],
-            [ 
-                // big number 
+            [
+                // big number
             ],
-            [ 
-                // custom html 
+            [
+                // custom html
             ],
-            [ 
-                // sparkline 
+            [
+                // sparkline
             ],
-            [ 
-                // sparkline 
+            [
+                // sparkline
             ],
             ......
         ];
@@ -66,7 +66,7 @@ class UserCard extends ResourceCard
 
 ## Big Number
 
-To define an array element as Big number you will need to set the `type` as `bigNumber`. 
+To define an array element as Big number you will need to set the `type` as `bigNumber`.
 Then you can the `data` with corresponding array keys/properties.
 
 ```php
@@ -95,7 +95,7 @@ Then you can the `data` with corresponding array keys/properties.
 
 ## Sparklines
 
-To define an array element as Big number you will need to set the `type` as `sparkline`. 
+To define an array element as Big number you will need to set the `type` as `sparkline`.
 Then you can the `data` with corresponding array keys/properties.
 
 ```php
@@ -131,7 +131,7 @@ Refer to the [v-sparkline API](https://vuetifyjs.com/en/api/v-sparkline/) for mo
 
 ## Custom HTML
 
-To define an array element as Big number you will need to set the `type` as `customHtml`. 
+To define an array element as Big number you will need to set the `type` as `customHtml`.
 Then you can the `data` with corresponding array keys/properties.
 
 ```php
@@ -144,4 +144,3 @@ Then you can the `data` with corresponding array keys/properties.
 ```
 
 [Click Here](https://github.com/laracube/demo/) to see the demo code.
-
