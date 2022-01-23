@@ -1,15 +1,14 @@
 # Resources Configuration
 
-These are the common configuration that is shared across most Resource. 
+These are the common configuration that is shared across most Resource.
 Individual resource can have additional configuration to enhance their behavior.
 
 ## Columns
 
-Laracube uses the 12 grid vuetify system to display resource. 
+Laracube uses the 12 grid vuetify system to display resource.
 By default, resources are set to use 3 columns.
 
-![12 Grid System](./assets/12-grid.png)
-
+![12 Grid System](../assets/12-grid.png)
 
 To customize the numbers of columns that a resource should you maybe define the `columns` property on the resource class
 
@@ -26,7 +25,7 @@ To customize the number of columns at the time of registering a resource to a re
 
 ```php
     use App\Laracube\Resources\Revenue\NetRevenue;
-   
+
     /**
      * Get the resources for the report.
      *
@@ -42,7 +41,7 @@ To customize the number of columns at the time of registering a resource to a re
 
 ## Resource Heading
 
-To customize the "heading" of a resource, you may define a `heading` property on the resource class. 
+To customize the "heading" of a resource, you may define a `heading` property on the resource class.
 You can also set the heading to `null` if you don't want to show any heading.
 
 ```php
@@ -54,9 +53,9 @@ You can also set the heading to `null` if you don't want to show any heading.
     public static $heading = 'heading';
 ```
 
-## Resource Subheading 
+## Resource Subheading
 
-To customize the "sub-heading" of a resource, you may define a `subHeading` property on the resource class. 
+To customize the "sub-heading" of a resource, you may define a `subHeading` property on the resource class.
 You can also set the sub-heading to `null` if you don't want to show any sub-heading.
 
 ```php

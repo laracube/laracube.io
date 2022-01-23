@@ -1,6 +1,6 @@
 # Reports Overview
 
-Reports are the building blocks for Laracube analytics platform. 
+Reports are the building blocks for Laracube analytics platform.
 Each reports get added to the left navigation.
 
 ## Defining Reports

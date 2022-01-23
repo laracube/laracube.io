@@ -12,9 +12,9 @@ Once the package has been installed via composer run `laracube:install` artisan 
 php artisan laracube:install
 ```
 
-After running this command, verify that the `App\Providers\LaracubeServiceProvider` 
-was added to the providers array in your app configuration file. 
-If it wasn't, you should add it manually. 
+After running this command, verify that the `App\Providers\LaracubeServiceProvider`
+was added to the providers array in your app configuration file.
+If it wasn't, you should add it manually.
 If your application uses a different namespace you will need to update it accordingly.
 
 ## Directory Structure
@@ -42,5 +42,5 @@ Once you have installed the package, you would see the package be structured lik
     └── mix-manifest.json
 ```
 
-🙌 Wohoo! Basic installation of Laracube is now complete, 
-head over to the [Authorizing Laracube](/docs/getting-started-authorizing) to set the authorization and see how to access the platform.
+🙌 Wohoo! Basic installation of Laracube is now complete,
+head over to the [Authorizing Laracube](/docs/1-x/getting-started-authorizing) to set the authorization and see how to access the platform.
