@@ -22,6 +22,7 @@ namespace App\Laracube\Resources;
 
 use App\Models\User;
 use Laracube\Laracube\Base\ResourceCard;
+use Illuminate\Http\Request;
 
 class UserCard extends ResourceCard
 {

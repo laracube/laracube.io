@@ -22,6 +22,7 @@ namespace App\Laracube\Resources;
 use App\Laracube\Collections\UserCollection;
 use App\Models\User;
 use Laracube\Laracube\Base\ResourceTable;
+use Illuminate\Http\Request;
 
 class UserTable extends ResourceTable
 {
